@@ -3,8 +3,8 @@
 name: CI-CD-Pipeline-to-AWS-ElasticBeastalk
 env:
    EU_PACKAGE_S3_BUKET_NAME : "cicd-github-actions"
-   EU_APPLICATION_NAME      : "Myflaskpython"
-   EU_ENVIRONMENT_NAME      : "Myflaskpython-env"
+   EU_APPLICATION_NAME      : "Mydeplom"
+   EU_ENVIRONMENT_NAME      : "Mydeplom-env"
    DEPLOY_PACKAGE_NAME      : "flask_app_${{ github.sha }}.zip"
    AWS_REGION_NAME          : "eu-central-1"
    
