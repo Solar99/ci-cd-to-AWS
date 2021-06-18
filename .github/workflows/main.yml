@@ -4,7 +4,7 @@ name: CI-CD-Pipeline-to-AWS-ElasticBeastalk
 env:
    EU_PACKAGE_S3_BUKET_NAME : "my-flask"
    EU_APPLICATION_NAME      : "MyFlask"
-   EU_ENVIRONMENT_NAME      : "Myflask-env"
+   EU_ENVIRONMENT_NAME      : "MyFlask"
    DEPLOY_PACKAGE_NAME      : "flask_app_${{ github.sha }}.zip"
    AWS_REGION_NAME          : "eu-central-1"
    
